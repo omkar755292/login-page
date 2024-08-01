@@ -18,15 +18,17 @@ const AuthPage = () => {
                     <img src={image3} alt="Image 3" className="w-24 h-24 md:w-32 md:h-32 object-cover rounded-full" />
                 </div>
                 <div className="text-center">
-                    <div className="bg-white p-6 border border-gray-300 rounded-lg shadow-lg mx-4">
-                        <p className="text-lg italic mb-4">
-                            "The only limit to our realization of tomorrow is our doubts of today."
-                        </p>
-                        <p className="text-md font-semibold">
-                            Franklin D. Roosevelt
-                        </p>
-                    </div>
-                </div>
+    <div className="bg-white p-6 border border-gray-300 rounded-lg shadow-lg mx-4">
+        <p className="text-lg italic mb-4 text-center">
+            "The only limit to our realization of tomorrow is our doubts of today."
+        </p>
+        <div className="text-right">
+            <p className="text-md font-semibold">
+              by Franklin D. Roosevelt
+            </p>
+        </div>
+    </div>
+</div>
             </div>
 
             {/* Left Half */}
